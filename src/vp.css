@@ -1,0 +1,54 @@
+body {
+    background-color: #F0F8FF;
+}
+
+.container {
+    font-family: McLaren;
+    background-color: white;
+    width: max-content;
+    margin: 15% auto;
+    text-align: center;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    border: solid dimgrey 3px;
+    text-align: center;
+    padding: 433.273px 18px 100px;
+    width: 45px;
+    height: 30px;
+    font-size: 40px;
+}
+
+.black-keys kbd {
+    position: relative;
+    display: inline-block;
+    border: solid dimgrey 3px;
+    text-align: center;
+    padding: 150px 7px;
+    width: 45px;
+    height: 30px;
+    font-size: 40px;
+    background-color: black;
+}
+
+.white-keys {
+    position: relative;
+    background-color: white;
+    width: max-content;
+    margin: 15% auto;
+    text-align:center
+}
+
+.black-keys {
+    position:absolute;
+    bottom:85px;
+    text-align:center;
+    width: max-content;
+    color:white;
+    top: 0;
+}
+.w-key {
+    position:relative;
+    top: -100%;
+}
